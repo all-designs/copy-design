@@ -487,9 +487,21 @@ height: 75px;
     padding-top: 10px;
     cursor: pointer;
 }
-footer {
+footer.img {
+    background: url(../images/footer-img/footer-bg.png);
     background-position: center -26px;
     border-top: 2px solid #363535;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+    background-color: #1a1a1a;
+}
+footer.img .inner {
+    padding-top: 45px;
+}
+footer.img .inner .our_panters_img {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
 }
 
 .fixed-nav{
